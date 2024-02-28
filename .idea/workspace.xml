@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfdb2052-79c4-4e4a-b527-cbf88f2e2c05" name="Changes" comment="skeleton is ready" />
+    <list default="true" id="dfdb2052-79c4-4e4a-b527-cbf88f2e2c05" name="Changes" comment="skeleton is ready">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/DDTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/DataProviders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/xlutilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/Userdata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/endpoints/userEndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/userEndPoints.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,23 +37,123 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/intellij/QA Projects/RestAssured_Projects/src/test&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/intellij/QA Projects/RestAssured_Projects/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/intellij/QA Projects/RestAssured_Projects/testData",
+    "onboarding.tips.debug.path": "D:/intellij/QA Projects/RestAssured_Projects/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\intellij\QA Projects\RestAssured_Projects\testData" />
       <recent name="D:\intellij\QA Projects\RestAssured_Projects\src\test" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.UserTests.testDeleteUserByName">
+    <configuration name="DDTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.DDTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTests.amrit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
+      <option name="METHOD_NAME" value="amrit" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTests.testDeleteUserByName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
+      <option name="METHOD_NAME" value="testDeleteUserByName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTests.testPostUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
+      <option name="METHOD_NAME" value="testPostUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UserTests.testDeleteUserByName" />
+        <item itemvalue="TestNG.UserTests.amrit" />
+        <item itemvalue="TestNG.UserTests.testPostUser" />
+        <item itemvalue="TestNG.DDTests" />
+        <item itemvalue="TestNG.UserTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708972681617</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="skeleton is ready">
+      <option name="closed" value="true" />
+      <created>1709038387128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709038387128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
