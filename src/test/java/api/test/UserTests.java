@@ -69,7 +69,6 @@ public class UserTests {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type","application/json");
        // request.pathParams(username);
-
         JSONObject json = new JSONObject();
         json.put("id",26);
         json.put("title","Selenium Webdriver");
