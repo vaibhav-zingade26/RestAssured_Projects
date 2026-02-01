@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfdb2052-79c4-4e4a-b527-cbf88f2e2c05" name="Changes" comment="60% framework is ready">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/PayLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/ComplexJSONScenarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/UdemyApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utilities/ReUsableMethods.java" afterDir="false" />
+    <list default="true" id="7d3f2d2d-cc2d-4a30-9d13-31ed112aabbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/Udemy/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/body.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/DDTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/utilities/DataProviders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/utilities/xlutilities.java" beforeDir="false" />
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/payload/PayLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/payload/PayLoad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +25,6 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Chetan-4441&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vaibhav-zingade26/RestAssured_Projects.git&quot;,
-    &quot;accountId&quot;: &quot;c0328dcb-95fb-40cc-9188-01a8490d1626&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2cumG5HIPheptMxrTzKbfQpABpw" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -63,106 +32,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ComplexJSONScenarios.complex.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UdemyApi.GET_05.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UdemyApi.POST.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UdemyApi.POST_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UdemyApi.PUT_04.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UdemyApi.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UserTests.amrit.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UserTests.t.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/intellij/QA Projects/RestAssured_Projects/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/intellij/QA Projects/RestAssured_Lex",
-    "onboarding.tips.debug.path": "D:/intellij/QA Projects/RestAssured_Projects/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.Books.Post_info.executor": "Run",
+    "TestNG.Books.executor": "Run",
+    "git-widget-placeholder": "QA",
+    "last_opened_file_path": "C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\intellij\QA Projects\RestAssured_Projects\testData" />
-      <recent name="D:\intellij\QA Projects\RestAssured_Projects\src\test" />
+      <recent name="C:\Users\vacz2\OneDrive\Desktop\RestAssured_Project\RestAssured_Projects" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="TestNG.ComplexJSONScenarios.complex">
-    <configuration name="C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_Projects" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplexJSONScenarios.complex" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
-  <component name="RunManager" selected="TestNG.demo">
-    <configuration name="UserTests.ab" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
+  <component name="RunManager" selected="TestNG.Books.PostViaExternalJSON">
+    <configuration name="Books" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.test.UDEMY.*" />
+          <option name="PATTERN" value="api.Udemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-<<<<<<< HEAD
-      <option name="PACKAGE_NAME" value="api.test.UDEMY" />
-      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.ComplexJSONScenarios" />
-      <option name="METHOD_NAME" value="complex" />
-=======
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
-      <option name="METHOD_NAME" value="ab" />
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="UdemyApi" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="UserTests.ac" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
-      <module name="RestAssured_Projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.test.UDEMY.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.UdemyApi" />
+      <option name="PACKAGE_NAME" value="api.Udemy" />
+      <option name="MAIN_CLASS_NAME" value="api.Udemy.Books" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -170,21 +65,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UdemyApi.GET_05" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Books.PostViaExternalJSON" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.test.UDEMY.*" />
+          <option name="PATTERN" value="api.Udemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.UdemyApi" />
-      <option name="METHOD_NAME" value="GET_05" />
-=======
-      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
-      <option name="METHOD_NAME" value="ac" />
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
+      <option name="PACKAGE_NAME" value="api.Udemy" />
+      <option name="MAIN_CLASS_NAME" value="api.Udemy.Books" />
+      <option name="METHOD_NAME" value="PostViaExternalJSON" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -192,61 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="UdemyApi.POST_02" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="UserTests.retrive" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
+    <configuration name="Books.Post_info" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.test.UDEMY.*" />
+          <option name="PATTERN" value="api.Udemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.UdemyApi" />
-      <option name="METHOD_NAME" value="POST_02" />
-=======
-      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
-      <option name="METHOD_NAME" value="retrive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_Projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.demo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo.fetchingUserDetails" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_Projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.demo" />
-      <option name="METHOD_NAME" value="fetchingUserDetails" />
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
+      <option name="PACKAGE_NAME" value="api.Udemy" />
+      <option name="MAIN_CLASS_NAME" value="api.Udemy.Books" />
+      <option name="METHOD_NAME" value="Post_info" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -256,97 +103,20 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="TestNG.ComplexJSONScenarios.complex" />
-        <item itemvalue="TestNG.UdemyApi.POST_02" />
-        <item itemvalue="TestNG.UdemyApi" />
-        <item itemvalue="TestNG.UdemyApi.GET_05" />
-        <item itemvalue="TestNG.C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects/testng.xml" />
-=======
-        <item itemvalue="TestNG.demo" />
-        <item itemvalue="TestNG.demo.fetchingUserDetails" />
-        <item itemvalue="TestNG.UserTests.ac" />
-        <item itemvalue="TestNG.UserTests.retrive" />
-        <item itemvalue="TestNG.UserTests.ab" />
->>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
+        <item itemvalue="TestNG.Books.PostViaExternalJSON" />
+        <item itemvalue="TestNG.Books" />
+        <item itemvalue="TestNG.Books.Post_info" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dfdb2052-79c4-4e4a-b527-cbf88f2e2c05" name="Changes" comment="" />
-      <created>1708969745048</created>
+      <changelist id="7d3f2d2d-cc2d-4a30-9d13-31ed112aabbc" name="Changes" comment="" />
+      <created>1769934988148</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708969745048</updated>
+      <updated>1769934988148</updated>
     </task>
-    <task id="LOCAL-00001" summary="skeleton is ready">
-      <option name="closed" value="true" />
-      <created>1708972681617</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1708972681617</updated>
-    </task>
-    <task id="LOCAL-00002" summary="skeleton is ready">
-      <option name="closed" value="true" />
-      <created>1709038387128</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1709038387128</updated>
-    </task>
-    <task id="LOCAL-00003" summary="60% framework is ready">
-      <option name="closed" value="true" />
-      <created>1709102482412</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709102482413</updated>
-    </task>
-    <task id="LOCAL-00004" summary="60% framework is ready">
-      <option name="closed" value="true" />
-      <created>1709197147056</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709197147056</updated>
-    </task>
-    <task id="LOCAL-00005" summary="60% framework is ready">
-      <option name="closed" value="true" />
-      <created>1709221446762</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1709221446762</updated>
-    </task>
-    <task id="LOCAL-00006" summary="60% framework is ready">
-      <option name="closed" value="true" />
-      <created>1709221465126</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709221465126</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="skeleton is ready" />
-    <MESSAGE value="60% framework is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="60% framework is ready" />
   </component>
 </project>

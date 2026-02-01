@@ -74,4 +74,19 @@ public class PayLoad {
                 "\n" +
                 "}";
     }
+
+    public static String bookInfoBody(String name,String isbn,int aisle,String author){
+        return "{\n" +
+                "  \"name\": \""+ name +"\",\n" +
+                "  \"isbn\": \""+ isbn +"\",\n" +
+                "  \"aisle\": "+aisle +",\n" +
+                "  \"author\": \""+ author +"\"\n" +
+                "}\n";
+    }
+
+    public static String deleteBook(String id){
+        return "{\n" +
+                "    \"ID\": \""+ id +"\"\n" +
+                "}";
+    }
 }
