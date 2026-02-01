@@ -12,6 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+<<<<<<< HEAD
         <!-- Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -19,6 +20,8 @@
             <version>6.0.0</version>
             <scope>test</scope>
         </dependency>
+=======
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
         <!-- https://mvnrepository.com/artifact/org.json/json -->
         <dependency>
             <groupId>org.json</groupId>
@@ -26,12 +29,14 @@
             <version>20240205</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.9.0</version>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
         <!-- Source: https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -39,6 +44,25 @@
             <version>3.0</version>
             <scope>test</scope>
         </dependency>
+=======
+
+        <!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
+        <dependency>
+            <groupId>com.github.scribejava</groupId>
+            <artifactId>scribejava-apis</artifactId>
+            <version>8.3.3</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <dependency>
             <groupId>com.aventstack</groupId>
@@ -50,6 +74,7 @@
             <artifactId>poi</artifactId>
             <version>5.2.3</version> <!-- Use the latest version -->
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -63,4 +88,10 @@
             <scope>compile</scope>
         </dependency>
        </dependencies>
+=======
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+
+    </dependencies>
+
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
 </project>

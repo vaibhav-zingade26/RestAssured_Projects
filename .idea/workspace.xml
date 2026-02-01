@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfdb2052-79c4-4e4a-b527-cbf88f2e2c05" name="Changes" comment="60% framework is ready">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/PayLoad.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/ComplexJSONScenarios.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/UdemyApi.java" afterDir="false" />
@@ -13,6 +14,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/DDTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UserTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/utilities/DataProviders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/utilities/xlutilities.java" beforeDir="false" />
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +63,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -74,14 +86,29 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/intellij/QA Projects/RestAssured_Lex",
+    "onboarding.tips.debug.path": "D:/intellij/QA Projects/RestAssured_Projects/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\intellij\QA Projects\RestAssured_Projects\testData" />
       <recent name="D:\intellij\QA Projects\RestAssured_Projects\src\test" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.ComplexJSONScenarios.complex">
     <configuration name="C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
@@ -94,6 +121,10 @@
       </method>
     </configuration>
     <configuration name="ComplexJSONScenarios.complex" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="TestNG.demo">
+    <configuration name="UserTests.ab" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
       <module name="RestAssured_Projects" />
       <extension name="coverage">
         <pattern>
@@ -101,9 +132,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="api.test.UDEMY" />
       <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.ComplexJSONScenarios" />
       <option name="METHOD_NAME" value="complex" />
+=======
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
+      <option name="METHOD_NAME" value="ab" />
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,7 +148,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="UdemyApi" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="UserTests.ac" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
       <module name="RestAssured_Projects" />
       <extension name="coverage">
         <pattern>
@@ -120,6 +161,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api.test" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.UdemyApi" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -139,6 +181,10 @@
       <option name="PACKAGE_NAME" value="api.test" />
       <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.UdemyApi" />
       <option name="METHOD_NAME" value="GET_05" />
+=======
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
+      <option name="METHOD_NAME" value="ac" />
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,7 +192,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="UdemyApi.POST_02" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="UserTests.retrive" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
       <module name="RestAssured_Projects" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +205,48 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api.test" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.UdemyApi" />
       <option name="METHOD_NAME" value="POST_02" />
+=======
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTests" />
+      <option name="METHOD_NAME" value="retrive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.demo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo.fetchingUserDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.demo" />
+      <option name="METHOD_NAME" value="fetchingUserDetails" />
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -166,11 +256,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="TestNG.ComplexJSONScenarios.complex" />
         <item itemvalue="TestNG.UdemyApi.POST_02" />
         <item itemvalue="TestNG.UdemyApi" />
         <item itemvalue="TestNG.UdemyApi.GET_05" />
         <item itemvalue="TestNG.C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects/testng.xml" />
+=======
+        <item itemvalue="TestNG.demo" />
+        <item itemvalue="TestNG.demo.fetchingUserDetails" />
+        <item itemvalue="TestNG.UserTests.ac" />
+        <item itemvalue="TestNG.UserTests.retrive" />
+        <item itemvalue="TestNG.UserTests.ab" />
+>>>>>>> 58f74884fb214f9b80413feb69c338a80e3407bc
       </list>
     </recent_temporary>
   </component>
@@ -215,8 +313,35 @@
       <option name="project" value="LOCAL" />
       <updated>1709197147056</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="60% framework is ready">
+      <option name="closed" value="true" />
+      <created>1709221446762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709221446762</updated>
+    </task>
+    <task id="LOCAL-00006" summary="60% framework is ready">
+      <option name="closed" value="true" />
+      <created>1709221465126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709221465126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
