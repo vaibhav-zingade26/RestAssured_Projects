@@ -12,6 +12,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+
 public class UserTests {
     Faker faker;
     User userPayLoad;
@@ -66,20 +69,37 @@ public class UserTests {
     }
     @Test
     public void amrit(){
-        RequestSpecification request = RestAssured.given();
+        RequestSpecification request = given();
         request.header("Content-Type","application/json");
        // request.pathParams(username);
         JSONObject json = new JSONObject();
         json.put("id",26);
         json.put("title","Selenium Webdriver");
         json.put("author","Learn Automation");
-
         request.body(json.toString());
+
 
         Response response = request.get("https://petstore.swagger.io/v2/user");
         response.then().log().all();
         Assert.assertEquals(response.getStatusCode(),200);
 
+    }
+
+    @Test
+    public void t(){
+        Response response =
+                given()
+                        .baseUri("https://reqres.in")
+                        .when()
+                        .get("/api/users/2")
+                        .then()
+                        .statusCode(200)
+                        .body("data.id", equalTo(2))
+                        .body("data.first_name", equalTo("Janet"))
+                        .log().all()
+                        .extract().response();
+
+        System.out.println("Response Time: " + response.getTime());
     }
 
 }

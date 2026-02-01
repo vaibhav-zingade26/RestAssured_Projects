@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects/src/test/java/api/test/UdemyApi.java">
+        <classes>
+            <class name="api.test.UDEMY.UdemyApi">
+                <methods>
+                    <exclude name="POST_01"/>
+                    <include name="POST_02"/>
+                    <include name="GET_03"/>
+                    <include name="PUT_04"/>
+                    <include name="GET_05"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
