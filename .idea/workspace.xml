@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3f2d2d-cc2d-4a30-9d13-31ed112aabbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/Udemy/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/body.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Oauth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/payload/PayLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/payload/PayLoad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Chetan-4441&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vaibhav-zingade26/RestAssured_Projects.git&quot;,
+    &quot;accountId&quot;: &quot;c0328dcb-95fb-40cc-9188-01a8490d1626&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="394TXrNSD2hZbyRoZ0lj3PNik7m" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -36,8 +51,10 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.Books.PostViaExternalJSON.executor": "Run",
     "TestNG.Books.Post_info.executor": "Run",
     "TestNG.Books.executor": "Run",
+    "TestNG.Oauth.executor": "Run",
     "git-widget-placeholder": "QA",
     "last_opened_file_path": "C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects"
   }
@@ -47,7 +64,7 @@
       <recent name="C:\Users\vacz2\OneDrive\Desktop\RestAssured_Project\RestAssured_Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Books.PostViaExternalJSON">
+  <component name="RunManager" selected="TestNG.Oauth">
     <configuration name="Books" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
       <extension name="coverage">
@@ -101,8 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Oauth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.UDEMY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test.UDEMY" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.Oauth" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Oauth" />
         <item itemvalue="TestNG.Books.PostViaExternalJSON" />
         <item itemvalue="TestNG.Books" />
         <item itemvalue="TestNG.Books.Post_info" />
