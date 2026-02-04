@@ -3,16 +3,16 @@ package api.payload.GoogleMapPOJO;
 import java.util.List;
 
 public class AddressBody {
-    private List<Location> location;
+    private Location location;
     private double accuracy;
     private String name;
     private String phone_number;
     private String address;
     private String[] types;
-    private String webSites;
+    private String website;
     private String language;
 
-    public List<Location> getLocation() {
+    public Location getLocation() {
         return location;
     }
 
@@ -36,15 +36,15 @@ public class AddressBody {
         return types;
     }
 
-    public String getWebSites() {
-        return webSites;
+    public String getWebsite() {
+        return website;
     }
 
     public String getLanguage() {
         return language;
     }
 
-    public void setLocation(List<Location> location) {
+    public void setLocation(Location location) {
         this.location = location;
     }
 
@@ -68,8 +68,8 @@ public class AddressBody {
         this.types = types;
     }
 
-    public void setWebSites(String webSites) {
-        this.webSites = webSites;
+    public void setWebSites(String website) {
+        this.website = website;
     }
 
     public void setLanguage(String language) {

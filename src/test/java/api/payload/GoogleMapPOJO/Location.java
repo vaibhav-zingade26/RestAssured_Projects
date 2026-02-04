@@ -3,22 +3,22 @@ package api.payload.GoogleMapPOJO;
 import java.time.LocalDate;
 
 public class Location {
-    private float lat;
-    private float lng;
+    private double lat;
+    private double lng;
 
-    public float getLat() {
+    public double getLat() {
         return lat;
     }
 
-    public float getLng() {
+    public double getLng() {
         return lng;
     }
 
-    public void setLat(float lat) {
+    public void setLat(double lat) {
         this.lat = lat;
     }
 
-    public void setLng(float lng) {
+    public void setLng(double lng) {
         this.lng = lng;
     }
 }

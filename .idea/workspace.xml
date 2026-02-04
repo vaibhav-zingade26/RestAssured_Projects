@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3f2d2d-cc2d-4a30-9d13-31ed112aabbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/AddressBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/POJO/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/POJO/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/POJO/GetCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/POJO/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/POJO/WebAutomation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/PlaceId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/PutMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/GoogleMaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Oauth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Oauth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/AddressBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/AddressBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/Location.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,41 +51,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.Books.PostViaExternalJSON.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Books.Post_info.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Books.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Oauth.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;QA&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.Books.PostViaExternalJSON.executor": "Run",
+    "TestNG.Books.Post_info.executor": "Run",
+    "TestNG.Books.executor": "Run",
+    "TestNG.GoogleMaps.executor": "Run",
+    "TestNG.GoogleMaps.post2.executor": "Run",
+    "TestNG.GoogleMaps.postDetails.executor": "Run",
+    "TestNG.Oauth.executor": "Run",
+    "git-widget-placeholder": "QA",
+    "last_opened_file_path": "C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vacz2\OneDrive\Desktop\RestAssured_Project\RestAssured_Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Oauth">
-    <configuration name="Books" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_Projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.Udemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.Udemy" />
-      <option name="MAIN_CLASS_NAME" value="api.Udemy.Books" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.GoogleMaps">
     <configuration name="Books.PostViaExternalJSON" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
       <extension name="coverage">
@@ -107,17 +90,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Books.Post_info" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleMaps" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.Udemy.*" />
+          <option name="PATTERN" value="api.test.UDEMY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.Udemy" />
-      <option name="MAIN_CLASS_NAME" value="api.Udemy.Books" />
-      <option name="METHOD_NAME" value="Post_info" />
+      <option name="PACKAGE_NAME" value="api.test.UDEMY" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.GoogleMaps" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleMaps.post2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.UDEMY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test.UDEMY" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.GoogleMaps" />
+      <option name="METHOD_NAME" value="post2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleMaps.postDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.UDEMY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test.UDEMY" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.GoogleMaps" />
+      <option name="METHOD_NAME" value="postDetails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,10 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GoogleMaps" />
+        <item itemvalue="TestNG.GoogleMaps.postDetails" />
+        <item itemvalue="TestNG.GoogleMaps.post2" />
         <item itemvalue="TestNG.Oauth" />
         <item itemvalue="TestNG.Books.PostViaExternalJSON" />
-        <item itemvalue="TestNG.Books" />
-        <item itemvalue="TestNG.Books.Post_info" />
       </list>
     </recent_temporary>
   </component>
