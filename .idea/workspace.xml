@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3f2d2d-cc2d-4a30-9d13-31ed112aabbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/PlaceId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/PutMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/OrderDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Ecommerce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/AddressBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/AddressBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/payload/GoogleMapPOJO/Location.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,8 @@
     "TestNG.Books.PostViaExternalJSON.executor": "Run",
     "TestNG.Books.Post_info.executor": "Run",
     "TestNG.Books.executor": "Run",
+    "TestNG.Ecommerce.Login.executor": "Run",
+    "TestNG.Ecommerce.executor": "Run",
     "TestNG.GoogleMaps.executor": "Run",
     "TestNG.GoogleMaps.post2.executor": "Run",
     "TestNG.GoogleMaps.postDetails.executor": "Run",
@@ -71,18 +73,35 @@
       <recent name="C:\Users\vacz2\OneDrive\Desktop\RestAssured_Project\RestAssured_Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleMaps">
-    <configuration name="Books.PostViaExternalJSON" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Ecommerce">
+    <configuration name="Ecommerce" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.Udemy.*" />
+          <option name="PATTERN" value="api.test.UDEMY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.Udemy" />
-      <option name="MAIN_CLASS_NAME" value="api.Udemy.Books" />
-      <option name="METHOD_NAME" value="PostViaExternalJSON" />
+      <option name="PACKAGE_NAME" value="api.test.UDEMY" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.Ecommerce" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ecommerce.Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.UDEMY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test.UDEMY" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.Ecommerce" />
+      <option name="METHOD_NAME" value="Login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,30 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oauth" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_Projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.test.UDEMY.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.test.UDEMY" />
-      <option name="MAIN_CLASS_NAME" value="api.test.UDEMY.Oauth" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Ecommerce" />
+        <item itemvalue="TestNG.Ecommerce.Login" />
         <item itemvalue="TestNG.GoogleMaps" />
         <item itemvalue="TestNG.GoogleMaps.postDetails" />
         <item itemvalue="TestNG.GoogleMaps.post2" />
-        <item itemvalue="TestNG.Oauth" />
-        <item itemvalue="TestNG.Books.PostViaExternalJSON" />
       </list>
     </recent_temporary>
   </component>
