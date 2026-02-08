@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3f2d2d-cc2d-4a30-9d13-31ed112aabbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/OrderDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Ecommerce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ECommerce/CreatedOrders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Ecommerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Ecommerce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.Books.PostViaExternalJSON.executor": "Run",
-    "TestNG.Books.Post_info.executor": "Run",
-    "TestNG.Books.executor": "Run",
-    "TestNG.Ecommerce.Login.executor": "Run",
-    "TestNG.Ecommerce.executor": "Run",
-    "TestNG.GoogleMaps.executor": "Run",
-    "TestNG.GoogleMaps.post2.executor": "Run",
-    "TestNG.GoogleMaps.postDetails.executor": "Run",
-    "TestNG.Oauth.executor": "Run",
-    "git-widget-placeholder": "QA",
-    "last_opened_file_path": "C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.Books.PostViaExternalJSON.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Books.Post_info.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Books.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Ecommerce.Login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Ecommerce.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GoogleMaps.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GoogleMaps.post2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GoogleMaps.postDetails.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Oauth.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;QA&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vacz2/OneDrive/Desktop/RestAssured_Project/RestAssured_Projects&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vacz2\OneDrive\Desktop\RestAssured_Project\RestAssured_Projects" />
