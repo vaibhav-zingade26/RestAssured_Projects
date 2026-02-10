@@ -35,14 +35,11 @@ public class GoogleMaps {
         ab.setWebSites("www.wefjwr.com");
         ab.setLanguage("Hing32lis");
         ab.setPhone_number("+90 233994");
-
         String[] t={"abc","dhaka"};
         ab.setTypes(t);
-
         Location l= new Location();
         l.setLat(-12.44555);
         l.setLng(12.34566);
-
         ab.setLocation(l);
 
         RequestSpecification req=new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com")
