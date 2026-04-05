@@ -80,15 +80,12 @@ public class Ecommerce {
                 .then().statusCode(201)
                 .log().all()
                 .extract().response().as(CreatedOrders.class);
-
-
         System.out.println(createdOrders.getMessage());
 
         String [] orderIds= createdOrders.getOrders();
         orderId=orderIds[0];
         System.out.println("OrderId is "+orderId);
         System.out.println("*************************************************");
-
     }
 
     @Test(dependsOnMethods = "createOrder")

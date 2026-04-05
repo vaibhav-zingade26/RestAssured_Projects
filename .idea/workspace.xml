@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3f2d2d-cc2d-4a30-9d13-31ed112aabbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/StepDefinations/StepDefination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFile.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/MukeshOtwani/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/MukeshOtwani/GetResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/MukeshOtwani/OAuth2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Ecommerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/Ecommerce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/GoogleMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UDEMY/GoogleMaps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +62,16 @@
     "TestNG.Books.PostViaExternalJSON.executor": "Run",
     "TestNG.Books.Post_info.executor": "Run",
     "TestNG.Books.executor": "Run",
+    "TestNG.Demo1.AddProduct.executor": "Run",
+    "TestNG.Demo1.Login.executor": "Run",
+    "TestNG.Demo1.executor": "Run",
     "TestNG.Ecommerce.Login.executor": "Run",
     "TestNG.Ecommerce.executor": "Run",
+    "TestNG.GetResponse.easyWay.executor": "Run",
+    "TestNG.GetResponse.easyWay1.executor": "Run",
+    "TestNG.GetResponse.executor": "Run",
+    "TestNG.GetResponse.getBody.executor": "Run",
+    "TestNG.GetResponse.getResponse.executor": "Run",
     "TestNG.GoogleMaps.executor": "Run",
     "TestNG.GoogleMaps.post2.executor": "Run",
     "TestNG.GoogleMaps.postDetails.executor": "Run",
@@ -75,41 +86,56 @@
       <recent name="C:\Users\vacz2\OneDrive\Desktop\RestAssured_Project\RestAssured_Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner">
-    <configuration name="Feature: featureFile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFile.feature" />
-      <option name="GLUE" value="CucumberFramework.StepDefinations" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+  <component name="RunManager" selected="TestNG.Demo1.AddProduct">
+    <configuration name="Demo1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: featureFile" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="api.test.MukeshOtwani.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="api.test.MukeshOtwani" />
+      <option name="MAIN_CLASS_NAME" value="api.test.MukeshOtwani.Demo1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify the place is being successfully created using AddPostApi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFile.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Demo1.AddProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Projects" />
-      <option name="NAME_FILTER" value="^Verify the place is being successfully created using AddPostApi$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the place is being successfully created using AddPostApi$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify the place is being successfully created using AddPostApi" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="api.test.MukeshOtwani.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="api.test.MukeshOtwani" />
+      <option name="MAIN_CLASS_NAME" value="api.test.MukeshOtwani.Demo1" />
+      <option name="METHOD_NAME" value="AddProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1.Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.MukeshOtwani.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test.MukeshOtwani" />
+      <option name="MAIN_CLASS_NAME" value="api.test.MukeshOtwani.Demo1" />
+      <option name="METHOD_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,30 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_Projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CucumberFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CucumberFramework" />
-      <option name="MAIN_CLASS_NAME" value="CucumberFramework.TestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: featureFile" />
-        <item itemvalue="Cucumber Java.Scenario: Verify the place is being successfully created using AddPostApi" />
+        <item itemvalue="TestNG.Demo1.AddProduct" />
         <item itemvalue="TestNG.Ecommerce" />
         <item itemvalue="TestNG.Ecommerce.Login" />
+        <item itemvalue="TestNG.Demo1" />
+        <item itemvalue="TestNG.Demo1.Login" />
       </list>
     </recent_temporary>
   </component>
